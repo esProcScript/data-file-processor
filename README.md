@@ -1,4 +1,4 @@
-# examples-for-mongodb-with-esproc
+# examples-for-java-with-esproc
 |　|A|B|C|
 |:-|:-|:-|:-|
 |1|=create(Customer_Code,Customer_Name,<br> Quotation_No,Unit_Price,Contract_Expiry_Date)|
