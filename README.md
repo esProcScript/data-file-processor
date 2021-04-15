@@ -1,7 +1,7 @@
 # examples-for-mongodb-with-esproc
 |　|A|B|C|
 |:-|:-|:-|:-|
-|1|=create(Customer_Code,Customer_Name,Quotation_No,Unit_Price,Contract_Expiry_Date)|
+|1|=create(Customer_Code,Customer_Name,\n Quotation_No,Unit_Price,Contract_Expiry_Date)|
 |2|=file("E:/txt2excel/item.txt").read@n()|　|　|
 |3|for   A2|if   len(A3)<136|next|
 |4|　|=right(left(A3,136),-58)|=B4.split@tp()|
