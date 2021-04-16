@@ -38,7 +38,7 @@ esProc supports most of the syntax in SQL92 standards. Then you can export the S
 |10|$select  count(distinct PID) from E:/txt/PRODUCT_SALE.txt|/Distinct Count|
 |11|$select  PID,count(distinct DATE) as no_sdate from E:/txt/PRODUCT_SALE.txt group by  PID|/Grouping & Count Distinct|
 |12|$select  sum(S.quantity\*P.Price) as total from E:/txt/Sales.txt as S  join E:/txt/Products.txt as P on S.productid=P.ID  where S.quantity<=10|/Two-table join query|
-|13|$select  e.NAME as NAME from E:/txt/EMPLOYEE_J.txt as e    <br>   join E:/txt/DEPARTMENT.txt as d on  e.DEPTID=d.DEPTID    <br>   join E:/txt/STATE.txt as s on  e.STATEID=s.STATEID <br> where d.NAME='HR' and s.NAME='California'|/Multi-table join query|
+|13|$select  e.NAME as NAME from E:/txt/EMPLOYEE_J.txt as e <br>   join E:/txt/DEPARTMENT.txt as d on  e.DEPTID=d.DEPTID <br>   join E:/txt/STATE.txt as s on  e.STATEID=s.STATEID <br> where d.NAME='HR' and s.NAME='California'|/Multi-table join query|
 |14|$select  e.NAME as ENAME from  E:/txt/EMPLOYEE.txt as e <br>   join E:/txt/DEPARTMENT.txt as d on  e.DEPT=d.NAME <br>   join E:/txt/EMPLOYEE.txt as emp on d.MANAGER=emp.EID <br> where  e.STATE='New York' and emp.STATE='California'|/Multi-table, multilevel join query|
 |15|$select  emp.BIRTHDAY as BIRTHDAY,emp.DEPT as DEPT from E:/txt/DEPARTMENT.txt as dept <br>    join E:/txt/EMPLOYEE.txt emp <br>    on dept.MANAGER=emp.EID <br> where <br>  emp.BIRTHDAY=(select  max(BIRTHDAY) <br>       from ( select emp1.BIRTHDAY as BIRTHDAY <br>            from E:/txt/DEPARTMENT.txt as  dept1 <br>             join E:/txt/EMPLOYEE.txt as  emp1 <br>             on dept1.MANAGER=emp1.EID <br>           ) <br>        )|/Nested subquery|
 
