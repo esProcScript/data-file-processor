@@ -16,7 +16,11 @@ For Linux:
 
 ```./esprocx.sh -r select * from Order.txt```
 
+<img src="http://img.raqsoft.com.cn/uploads/1206/1607243485000bfdb.png">
+
 ## Examples
+
+esProc supports most of the syntax in SQL92 standards.
 
 |　|A|B|
 |:-|:-|:-|
