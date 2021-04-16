@@ -34,7 +34,7 @@ esProc supports most of the syntax in SQL92 standards. Then you can export the S
 |6|$select  top 3 \* from E:/txt/students_scores.txt order by English desc|/TOP-N|
 |7|$select  CLASS,min(English),max(Chinese),sum(Math) from E:/txt/students_scores.txt  group by CLASS| /Grouping & aggregation|
 |8|$select  CLASS,avg(English) as avg_En from E:/txt/students_scores.txt group by CLASS having  avg(English)<70|/Post-grouping filtering|
-|9| $select  distinct CLASS from E:/txt/students_scores.txt|/Distinct|
+|9|$select  distinct CLASS from E:/txt/students_scores.txt|/Distinct|
 |10|$select  count(distinct PID) from E:/txt/PRODUCT_SALE.txt|/Distinct Count|
 |11|$select  PID,count(distinct DATE) as no_sdate from E:/txt/PRODUCT_SALE.txt group by  PID|/Grouping & Count Distinct|
 |12|$select  sum(S.quantity\*P.Price) as total <br>   from E:/txt/Sales.txt as S  join E:/txt/Products.txt as P on S.productid=P.ID <br>   where S.quantity<=10|/Two-table join query|
