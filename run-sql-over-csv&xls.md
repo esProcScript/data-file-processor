@@ -10,13 +10,15 @@
 
 For Windows:
 
-```esprocx.exe -r select * from Order.txt```
+```esprocx -r select state, sum(amount) as sum_amount from d:/excel/orders.xlsx group by state```
+
+<img src="http://img.raqsoft.com.cn/uploads/1206/1607243485000bfdb.png">
 
 For Linux:
 
-```./esprocx.sh -r select * from Order.txt```
+```esprocx -r select state, sum(amount) as sum_amount from d:/excel/orders.xlsx group by state```
 
-<img src="http://img.raqsoft.com.cn/uploads/1206/1607243485000bfdb.png">
+
 
 ## Examples
 
