@@ -10,7 +10,7 @@ You can easily export the SQL query result to a new Excel file or text file.
 
 <img src="http://www.raqsoft.com/wp-content/themes/raqsoft2017-en/images/script-over-csv-xls/2.png" width="800" height="600">
 
-<img src="http://img.raqsoft.com.cn/uploads/1206/16072435000000aeb.png">
+<img src="http://img.raqsoft.com.cn/uploads/1206/16072435000000aeb.png" width="800" height="200">
 
 ### Execute SQL at command line
 
@@ -18,7 +18,7 @@ For Windows:
 
 ```esprocx -r select state, sum(amount) as sum_amount from d:/excel/orders.xlsx group by state```
 
-<img src="http://img.raqsoft.com.cn/uploads/1206/1607243485000bfdb.png">
+<img src="http://img.raqsoft.com.cn/uploads/1206/1607243485000bfdb.png" width="800" height="200">
 
 For Linux:
 
