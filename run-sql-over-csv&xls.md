@@ -4,6 +4,8 @@
 
 ### Execute SQL in esProc
 
+You can easily export the SQL query result to a new Excel file or text file.
+
 <img src="http://www.raqsoft.com/wp-content/themes/raqsoft2017-en/images/script-over-csv-xls/2.png" width="800" height="600">
 
 ### Execute SQL at command line
@@ -22,7 +24,7 @@ For Linux:
 
 ## Examples
 
-esProc supports most of the syntax in SQL92 standards. Then you can export the SQL query result to a new Excel file or text file. 
+esProc supports most of the syntax in SQL92 standards. 
 
 |　|A|B|
 |:-|:-|:-|
