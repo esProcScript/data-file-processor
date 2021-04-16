@@ -10,7 +10,7 @@ You can easily export the SQL query result to a new Excel file or text file.
 
 <img src="http://www.raqsoft.com/wp-content/themes/raqsoft2017-en/images/script-over-csv-xls/2.png" width="800" height="600">
 
-<img src="http://img.raqsoft.com.cn/uploads/1206/16072435000000aeb.png" width="800" height="200">
+<img src="http://img.raqsoft.com.cn/file/2021/04/c530f366d657481bbff3e1f9097a4aca_3.png" width="800" height="200">
 
 ### Execute SQL at command line
 
