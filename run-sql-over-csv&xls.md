@@ -22,7 +22,7 @@ For Linux:
 
 ## Examples
 
-esProc supports most of the syntax in SQL92 standards.
+esProc supports most of the syntax in SQL92 standards. Then you can export the SQL query result to a new Excel file or text file. 
 
 |　|A|B|
 |:-|:-|:-|
