@@ -1,0 +1,6 @@
+|　|A|B|
+|:-|:-|:-|
+|1|for directory@p("d:/excel/\*.xlsx")|=file(A1).xlsopen()|
+|2|　|=B1.conj(B1.xlsimport@t('Customer Name','Sale Amount','Purchase Date';\~.stname))|
+|3|　|=@|B2|
+|4|> file("d:/result.xlsx"). xlsexport@t(B3;"merge_data")|　|
