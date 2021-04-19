@@ -4,7 +4,7 @@
 
 [Merge a folder of CSVs]()
 
-[Merge multiple sheets of one Excel file]()
+[Merge excel files to one single excel workbook](merge-multiple-excels-into-one.md)
 
 [Combine many CSV files into a single excel file](combine-many-csv-files.md)
 
