@@ -6,7 +6,7 @@
 
 [Merge multiple sheets of one Excel file]()
 
-[Combine many CSV files into a single excel file](combine-many-csv-files)
+[Combine many CSV files into a single excel file](combine-many-csv-files.md)
 
 [Filter or query CSV data into a worksheet]()
 
