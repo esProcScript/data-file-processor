@@ -2,8 +2,6 @@
 
 [Run complex SQL queries on a CSV file](run-sql-over-csv&xls.md)
 
-## merge and combine CSV files
+[Merge a folder of CSVs]()
 
-[Merge a folder of CSVs]
-
-[Filter CSV data to Excel]
+[Filter CSV data to Excel]()
