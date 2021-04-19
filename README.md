@@ -2,7 +2,7 @@
 
 - [Run complex SQL queries on a CSV file](run-sql-over-csv&xls.md)
 
-- [Merge excel files into a worksheet](merge-multiple-excels-into-one.md)
+- [Merge EXCEL files into a worksheet](merge-multiple-excels-into-one.md)
 
 [Merge a folder of CSVs | Combine many CSV files into a single excel file](combine-many-csv-files.md)
 
