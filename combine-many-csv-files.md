@@ -11,15 +11,11 @@ Here are several Excel files in which every worksheet containing a year’s sale
 |3|　|=@|B2|
 |4|> file("d:/result.xlsx"). xlsexport@t(B3;"merge_data")|　|
 
-|+|A|B|C|
-|:-|:-|:-|:-|
-|1|Customer Name|Sale Amount|Purchase Date|
-|2|John Smith|1200|2013/1/1|
-|3|Mary Harrison|1425|2013/1/6|
-|4|Lucy Gomez|1390|2013/1/11|
-|5|Rupert Jones|1257|2013/1/18|
-|6|......|......|......|
-|7|Thomas Haines|1346|2013/2/17|
-
-^Table ^formatting ^brought ^to ^you ^by ^[ExcelToReddit](https://xl2reddit.github.io/)
-
+|Customer Name|Sale Amount|Purchase Date|
+|:-|:-|:-|
+|John Smith|1200|2013/1/1|
+|Mary Harrison|1425|2013/1/6|
+|Lucy Gomez|1390|2013/1/11|
+|Rupert Jones|1257|2013/1/18|
+|......|......|......|
+|Thomas Haines|1346|2013/2/17|
