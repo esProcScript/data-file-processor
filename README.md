@@ -4,6 +4,6 @@
 
 [Merge a folder of CSVs]()
 
-[Filter CSV data to Excel]()
+[Filter or query CSV data into a worksheet]()
 
 [Split a CSV file into multiple sheets]()
