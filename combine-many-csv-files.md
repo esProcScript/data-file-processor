@@ -2,7 +2,7 @@ Excel VBA often fails if there is a huge amount of data. In this case, a profess
 
 Here are several Excel files in which every worksheet containing a year’s sales data has the same structure as the worksheets in the previous instance:
 
-[](http://img.raqsoft.com/file/2018/12/61810e052e9c44c1bfd452700afd3000_001.png)
+<imge sr=http://img.raqsoft.com/file/2018/12/61810e052e9c44c1bfd452700afd3000_001.png>
 
 Below is an Excel file containing sales data. There are 3 worksheets of same structure in the file.
 |Customer ID|Customer Name|Invoice Number|Sale Amount|Purchase Date|
