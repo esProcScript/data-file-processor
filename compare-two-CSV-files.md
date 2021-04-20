@@ -1,3 +1,5 @@
+# Compare two CSV files
+
 Comparing two text files to find their common or different data is not a rare thing in data analysis work. According to the content to be compared, there are row-wise comparison and comparison by key field(s); and according to the sizes of files under comparison, there are small files comparison and big files comparison
 
 For Example,there are two text files. Each row of both files is a string. We want to compare them row by row. To do this, we read in each row of every file as a string to form a set of strings and then perform a set operation.
