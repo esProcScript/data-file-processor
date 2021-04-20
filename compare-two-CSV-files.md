@@ -12,7 +12,7 @@ paint.txt and dance.txt record IDs and names of children who enrolled in paint
 
 To find common records of the two files is to get their intersection.
 
-Example: Find all children who enrolled in both painting class and dancing class and write their records to p_d.txt.
+Example: Find all children who enrolled in both painting class and dancing class and write their records to result.xlsx.
 
 esProc SPL script:
 
