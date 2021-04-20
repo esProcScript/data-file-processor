@@ -1,4 +1,4 @@
-# How do I run a SQL query in a CSV file?
+# Run complex SQL queries on a CSV file
 
 Use csvsql or q, command-line tools that allow direct execution of SQL-like queries on CSVs/TSVs (and any other tabular text files ) if your query is very simple. If you want to do more complex queries or even want to query excel files directly, try esProc.
 
