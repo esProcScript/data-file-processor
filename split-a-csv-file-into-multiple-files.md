@@ -26,7 +26,7 @@ If the size of the original files is too big to be loaded into the memory at a t
 
 |+|A|B|C|D|
 |:-|:-|:-|:-|:-|
-|1|=file(“e:/orders/orders.xlsx”).xlsimport@tc()|　|　|　|
+|1|=file(“e:/orders/orders.xlsx”)<br>.xlsimport@tc()|　|　|　|
 |2|for A1,50000|=A2.group(partName)|　|　|
 |3|　|for B2|=file("e:/parts/"+B3(1).partName+”.xlsx”)|　|
 |4|　|　|if C3.exists()|=C3.xlsexport@a(B3)|
