@@ -10,7 +10,8 @@
 
 - [Extract information from a huge text file](extract-a-huge-text-file.md)
 
+- [Split a CSV file into multiple files](split-a-csv-file-into-multiple-files.md)
 
 [Filter or query CSV data into a worksheet]()
 
-[Split a CSV file into multiple sheets]()
+
