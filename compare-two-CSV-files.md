@@ -1,7 +1,5 @@
 # Compare two CSV files and find common or different data
 
-Comparing two text files to find their common or different data is not a rare thing in data analysis work. According to the content to be compared, there are row-wise comparison and comparison by key field(s); and according to the sizes of files under comparison, there are small files comparison and big files comparison
-
 For Example,there are two text files. Each row of both files is a string. We want to compare them row by row. To do this, we read in each row of every file as a string to form a set of strings and then perform a set operation.
 
 paint.txt and dance.txt record IDs and names of children who enrolled in painting class and dancing class respectively. Below is part of paint.txt:
@@ -39,4 +37,5 @@ esProc SPL script:
 |3|>file("d:/result.xlsx").xlsexport@t(A1%A2;"differences")|Write their XORs to result.xlsx|
 
 
+Comparing two text files to find their common or different data is not a rare thing in data analysis work. According to the content to be compared, there are row-wise comparison and comparison by key field(s); and according to the sizes of files under comparison, there are small files comparison and big files comparison.
 For more details, see [Samples of Comparing Files](http://c.raqsoft.com/article/1600309188122)
