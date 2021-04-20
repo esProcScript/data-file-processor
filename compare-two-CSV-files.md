@@ -1,4 +1,4 @@
-# Compare two CSV files
+# Compare two CSV files and find common or different data
 
 Comparing two text files to find their common or different data is not a rare thing in data analysis work. According to the content to be compared, there are row-wise comparison and comparison by key field(s); and according to the sizes of files under comparison, there are small files comparison and big files comparison
 
