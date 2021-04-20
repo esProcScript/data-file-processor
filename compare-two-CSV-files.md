@@ -8,7 +8,7 @@ paint.txt and dance.txt record IDs and names of children who enrolled in paint
   20121107-Jack
   20121113-Mike
 ```
-- Find common data
+## Find common data
 
 To find common records of the two files is to get their intersection.
 
@@ -22,7 +22,7 @@ esProc SPL script:
 |2|=file("e:/txt/dance.txt").read@n()|Read each of the rows from dance.txt to form a set|
 |3|>file("d:/result.xlsx").xlsexport(A1\^A2;"common")|Write their intersection to result.xlsx|
 
-- Find differences
+## Find differences
 
 Find all different records of the two files.
 
