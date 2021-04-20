@@ -45,7 +45,8 @@ C3 Create a file object named after the parts name.
 
 C4-D5 If a file object already exists, use @a option to append the parts orders to it; if there isn’t such a file object, use @t to import column headers first and then the detailed data.
 
-2.  Split of multi-row records
+## Split of multi-row records
+
 In some text files, a record consists of multiple rows. To split such a file, we need to identify the rows for forming one record and make sure that one record won’t be split into two files.
 
 Example 1: log.txt records web operations logs. Each piece of log occupies 5 lines. The task is to split the file into smaller files, and each will contain 1000 pieces of logs.
