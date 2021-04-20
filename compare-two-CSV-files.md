@@ -21,13 +21,11 @@ esProc SPL script:
 |:-|:-|:-|
 |1|=file("e:/txt/paint.txt").read@n()|Read each of the rows from paint.txt to form a set|
 |2|=file("e:/txt/dance.txt").read@n()|Read each of the rows from dance.txt to form a set|
-|3|=file("e:/txt/p_d.txt").write(A1\^A2)|Write their intersection to p_d.txt|
+|3|>file("d:/result.xlsx").xlsexport(A1\^A2;"common")|Write their intersection to result.xlsx|
 
 - Find differences
 
-There are two types of scenarios of getting differences:
-
-1. Find all different records of the two files.
+Find all different records of the two files.
 
 Example: Find the children who enrolled in either painting class or dancing class.
 
@@ -37,19 +35,7 @@ esProc SPL script:
 |:-|:-|:-|
 |1|=file("e:/txt/paint.txt").read@n()|Read each of the rows from paint.txt to form a set|
 |2|=file("e:/txt/dance.txt").read@n()|Read each of the rows from dance.txt to form a set|
-|3|=file("e:/txt/p_d.txt").write(A1%A2)|Write their XORs to p_d.txt|
+|3|>file("d:/result.xlsx").xlsexport@t(A1%A2;"differences")|Write their XORs to result.xlsx|
 
-2. Find records from each file that doesn’t exist in the other one.
-
-Example: Find children who enrolled in painting class or dancing class only.
-
-esProc SPL script:
-
-|+|A|B|
-|:-|:-|:-|
-|1|=file("e:/txt/paint.txt").read@n()|Read each of the rows from paint.txt to form a set|
-|2|=file("e:/txt/dance.txt").read@n()|Read each of the rows from dance.txt to form a set|
-|3|=file("e:/txt/p_1.txt").write(A1\A2)|Remove records children from A1 that also exist in A2 to get children who only enrolled in painting class and write them to p_1.txt|
-|4|=file("e:/txt/d_1.txt").write(A2\A1)|Remove records children from A2 that also exist in A1 to get children who only enrolled in dancing class and write them to d_1.txt|
 
 For more details, see [Samples of Comparing Files](http://c.raqsoft.com/article/1600309188122)
