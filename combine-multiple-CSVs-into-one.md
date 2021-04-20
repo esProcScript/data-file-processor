@@ -1,7 +1,7 @@
 
 # Combine multiple CSVs into one
 
-1. Text files of same structure
+## Text files of same structure
 
 A directory contains a number of text files of same column headers and structure but with different number of rows and detailed data. We want to merge these files into a single file under one set of column headers.
 
@@ -26,7 +26,7 @@ esProc SPL script:
 
 If e:/orders has subdirectories, the text files under each subdirectory need to be merged too. In such case, A1 can be rewritten as =directory@ps("e:/orders/*.txt"). @s option enables getting files under all subdirectories recursively.
 
-2. Text files of similar structure
+## Text files of similar structure
 
 Sometimes the text files don’t have completely same structure. They may contain different number of columns or have columns in different order, though all share a number of common columns. To merge the common columns in all files into one file, we need to retrieve them from each file in a specified order.  
 
