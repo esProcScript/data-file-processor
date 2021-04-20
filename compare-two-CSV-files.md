@@ -5,10 +5,11 @@ Comparing two text files to find their common or different data is not a rare th
 For Example,there are two text files. Each row of both files is a string. We want to compare them row by row. To do this, we read in each row of every file as a string to form a set of strings and then perform a set operation.
 
 paint.txt and dance.txt record IDs and names of children who enrolled in painting class and dancing class respectively. Below is part of paint.txt:
+```
   20121102-Joan
   20121107-Jack
   20121113-Mike
-  
+```
 - Find common data
 
 To find common records of the two files is to get their intersection.
