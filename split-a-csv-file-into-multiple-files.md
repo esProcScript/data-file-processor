@@ -24,13 +24,16 @@ B2 Export orders of each type of parts to a new Excel file named after the parts
 
 If the size of the original files is too big to be loaded into the memory at a time, we can import it with the cursor using the following script:
 
-|+|A|
-|:-|:-|
-|1|=file(“e:/orders/orders.xlsx”).xlsimport@tc()|
-|2|for A1,50000|=A2.group(partName)| |
-|3| |for B2|=file("e:/parts/"+B3(1).partName+”.xlsx”)| |
-|4| | |if C3.exists()|=C3.xlsexport@a(B3)|
-|5| | |else|=C3.xlsexport@t(B3)|
+|+|A|B|C|D|
+|:-|:-|:-|:-|:-|
+|1|=file(“e:/orders/orders.xlsx”).xlsimport@tc()|　|　|　|
+|2|for A1,50000|=A2.group(partName)|　|　|
+|3|　|for B2|=file("e:/parts/"+B3(1).partName+”.xlsx”)|　|
+|4|　|　|if C3.exists()|=C3.xlsexport@a(B3)|
+|5|　|　|else|=C3.xlsexport@t(B3)|
+
+^Table ^formatting ^brought ^to ^you ^by ^[ExcelToReddit](https://xl2reddit.github.io/)
+
 
 A1 Create the cursor to import the original Excel files.
 
