@@ -24,17 +24,17 @@ esProc SPL script:
 
 Explanation:
 
-  A1: The for loop traverses every Excel file under the given directory to perform a series of operations over every worksheet in B1~B3.
+A1: The for loop traverses every Excel file under the given directory to perform a series of operations over every worksheet in B1~B3.
   
-  B1: Open an Excel file and generate a sequence.
+B1: Open an Excel file and generate a sequence.
   
-  B2: Import the specified fields, ‘Customer Name’, ‘Sale Amount’ and ‘Purchase Date’, from every worksheet of the current file and merge them. This is similar to the operations in A2 in the previous instance.
+B2: Import the specified fields, ‘Customer Name’, ‘Sale Amount’ and ‘Purchase Date’, from every worksheet of the current file and merge them. This is similar to the operations in A2 in the previous instance.
   
-  B3: Combine B2’s table sequence with the current value of B3.
+B3: Combine B2’s table sequence with the current value of B3.
   
-  A4: Save B3’s table sequence as a worksheet, named merge_data, in file result.xlsx.
+A4: Save B3’s table sequence as a worksheet, named merge_data, in file result.xlsx.
 
-  The program achieves multiple Excel file merging with only two rounds loop. The outer loop traverses each of the Excel files under the given directory while the inner loop B1.conj() function merges data from every worksheet in an Excel file.
+The program achieves multiple Excel file merging with only two rounds loop. The outer loop traverses each of the Excel files under the given directory while the inner loop B1.conj() function merges data from every worksheet in an Excel file.
 
 The desired merging effect:
 
