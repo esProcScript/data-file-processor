@@ -4,8 +4,6 @@
 
 - [Combine multiple Text files of similar structure into one](combine-multiple-CSVs-into-one.md)
 
-- [Merge a folder of Excels | Merge many EXCEL files into a worksheet](merge-multiple-excels-into-one.md)
-
 - [Compare two CSV files and produce common or different output in Excel](compare-two-CSV-files.md)
 
 - [Extract information from a huge text file](extract-a-huge-text-file.md)
@@ -22,8 +20,10 @@
 
 [Transpose the lines and columns of the CSV file]()
 
-[Importing .csv file for calculating in Java]()
+[Summarize CSV Files | Sum up CSV columns without excel]()
 
-[CSV column value calculation in java]()
+[Summary of multiple CSV files]()
 
-[Sum column(s) in muiltiple, large, .csv files (file sizes ~1GB)]()
+[Sum columns in muiltiple, large, .csv files]()
+
+- [Merge a folder of Excels | Merge many EXCEL files into a worksheet](merge-multiple-excels-into-one.md)
