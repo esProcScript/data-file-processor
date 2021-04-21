@@ -9,17 +9,17 @@ esProc is a professional data processing tool. Like the database, it has built-i
 esProc provides a cursor, which can read data in batches and then calculate, so it is convenient to process large files. For example, you only need one line of code:
 1. Calculate total order amount
 ```
-=file(“orders.txt”).cursor@t ().total(sum(amount))
+=file(“orders.txt”).cursor@t().total(sum(amount))
 ```
 
 It is also very easy if you want to add a filtering. For example, you can only count the total order amount since 2009:
 ```
-=file(“orders.txt”).cursor@t ().select(orderdate>=date(“2009-01-01”)).total(sum(amount))
+=file(“orders.txt”).cursor@t().select(orderdate>=date(“2009-01-01”)).total(sum(amount))
 ```
 
 2. Grouping and sorting are also simple：Group by state and calculate total order amount by state
 ```
-=file(“orders.txt”).cursor@t ().groups(state;sum(amount))
+=file(“orders.txt”).cursor@t().groups(state;sum(amount))
 ```
 
 3. Sort by order amount
