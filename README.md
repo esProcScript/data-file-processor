@@ -28,4 +28,4 @@
 
 [Sum columns in muiltiple, large, .csv files]()
 
-- [Merge a folder of Excels | Merge many EXCEL files into a worksheet](merge-multiple-excels-into-one.md)
+
