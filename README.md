@@ -1,4 +1,4 @@
-# SPL Processing Data File
+# Mighty Script on CSV
 
 - [Run complex SQL queries directly on CSV files](run-sql-over-csv&xls.md)
 
