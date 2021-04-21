@@ -18,7 +18,7 @@
 
 [Convert Text to Columns with expressions]()
 
-[Transpose the lines and columns of the CSV file]()
+[Transpose rows and columns of a CSV file]()
 
 [Summarize CSV Files | Sum up CSV columns without excel]()
 
