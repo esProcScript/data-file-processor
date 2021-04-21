@@ -12,6 +12,12 @@
 
 - [Split a CSV file into multiple files](split-a-csv-file-into-multiple-files.md)
 
-[Filter or query CSV data into a worksheet]()
+[Remove duplicates from a CSV file]()
+
+[Reorder and/or remove columns in a CSV file]()
+
+[Convert a CSV file to Excel| Filter or query CSV data into a worksheet]()
+
+[Convert Text to Columns with expressions]()
 
 
