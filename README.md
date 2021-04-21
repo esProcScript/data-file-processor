@@ -6,7 +6,7 @@
 
 - [Merge a folder of Excels | Merge many EXCEL files into a worksheet](merge-multiple-excels-into-one.md)
 
-- [Compare two CSV files and produce common output in Excel](compare-two-CSV-files.md)
+- [Compare two CSV files and produce common or different output in Excel](compare-two-CSV-files.md)
 
 - [Extract information from a huge text file](extract-a-huge-text-file.md)
 
