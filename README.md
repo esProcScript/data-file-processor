@@ -20,4 +20,8 @@
 
 [Convert Text to Columns with expressions]()
 
+[Transpose the lines and columns of the CSV file]()
+
+[Importing .csv file for calculating in Java]()
+
 
