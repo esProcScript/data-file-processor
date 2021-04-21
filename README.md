@@ -16,7 +16,7 @@
 
 [Reorder and/or remove columns in a CSV file]()
 
-[Convert a CSV file to Excel| Filter or query CSV data into a worksheet]()
+[Filter or query CSV data into a worksheet | Select specific rows from a CSV based on conditional expressions]()
 
 [Convert Text to Columns with expressions]()
 
