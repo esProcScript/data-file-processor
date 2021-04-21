@@ -34,7 +34,7 @@ If the size of the original files is too big to be loaded into the memory at a t
 
 
 
-## Split of multi-row records
+## Split by rows
 
 In some text files, a record consists of multiple rows. To split such a file, we need to identify the rows for forming one record and make sure that one record won’t be split into two files.
 
