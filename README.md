@@ -1,6 +1,6 @@
 # SPL Processing Data File
 
-- [Run complex SQL queries on CSV files](run-sql-over-csv&xls.md)
+- [Run complex SQL queries directly on CSV files](run-sql-over-csv&xls.md)
 
 - [Combine multiple Text files of similar structure into one](combine-multiple-CSVs-into-one.md)
 
