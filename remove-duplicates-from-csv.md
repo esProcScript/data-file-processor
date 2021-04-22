@@ -73,8 +73,7 @@ esProc SPL script:
 |4|=file("e:/txt/2018c_rebuy.xlsx").xlsexport@t(A3)|Export A3’s result to 2018c_rebuy.xlsx|
 
 
-
-
+The above script is written on the condition that a csv file is not too big. If it is not, look at how we can get  done over big files [Sample Programs of Performing Distinct on a File](http://c.raqsoft.com/article/1600308846480)
 
 
 
