@@ -16,7 +16,7 @@
 
 - [Associative calculation and query on CSV files](associative-calculation-on-CSVs.md)
 
-- [Filter and summary a large CSV file](filter-and-summarize-a-large-CSV-file.md)
+- [Filter and summary a large CSV file](filter-and-summary-a-large-CSV-file.md)
 
 [Reorder and/or remove columns in a CSV file]()
 
