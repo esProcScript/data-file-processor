@@ -20,14 +20,9 @@
 
 - [Associative calculation and query on CSV files](associative-calculation-on-CSVs.md)
 
+- [Convert Text to Columns with expressions](convert-text-to-columns.md)
 
 [Reorder and/or remove columns in a CSV file]()
-
-
-
-[Convert Text to Columns with expressions]()
-
-
 
 [Summarize multiple CSV files]()
 
