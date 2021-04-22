@@ -10,7 +10,7 @@
 
 - [Split a CSV file into multiple files](split-a-csv-file-into-multiple-files.md)
 
-[Remove duplicates from a CSV file]()
+- [Remove duplicates from a CSV file](remove-duplicates-from-csv.md)
 
 [Reorder and/or remove columns in a CSV file]()
 
