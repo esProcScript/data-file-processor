@@ -24,8 +24,6 @@
 
 [Transpose rows and columns of a CSV file]()
 
-[Summarize CSV Files | Sum up CSV columns without excel]()
-
 [Summarize multiple CSV files]()
 
 [Summarize a large CSV file]()
