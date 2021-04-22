@@ -94,5 +94,5 @@ A3 selects from A2 those with an average English score of less than 70  
 
 The query results in A3 are as follows:
 
-<img src="http://img.raqsoft.com.cn/uploads/0319/16161389470007bb0.png" width="400" height="100">
+<img src="http://img.raqsoft.com.cn/uploads/0319/16161389470007bb0.png" width="500" height="100">
 
