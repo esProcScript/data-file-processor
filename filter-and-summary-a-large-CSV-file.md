@@ -70,7 +70,18 @@ To calculate the total Chinese scores in class 10, esProc SPL has the following 
 
 Example: The big file user_info_reg.csv records user login information. We want to calculate the total number and duration of user logins in each province. Values of different columns are separated by commas. Below is part of the file:
 
-<img src="http://img.raqsoft.com.cn/uploads/0903/159911656700024c6.png">
+```
+user_id,reg_mon,age,cell_province,id_province,id_city,insertdate,reg_time
+483833,2017-04,19,c29,c26,c26241,2018-12-11,56558
+156772,2016-05,31,c11,c11,c11159,2018-02-13,81617
+173388,2016-05,34,c02,c02,c02182,2018-08-21,729
+199107,2016-07,25,c09,c09,c09046,201 8-06-05,86299
+122560,2016-03,23,c05,c05,c05193,2018-04-02,2657
+550399,2017-06,30,c08,c07,c07282,2018-04-19,54413
+414650,2017-02,53,c12,c12,N,2018-10-16,57077
+275042,2016-10,23,c21,c21,c21174,2018-07-10,69604
+184180,201 6-06,29,c04,c04,c04348,2018-02-08,18890
+```
 
 esProc SPL script:
 
