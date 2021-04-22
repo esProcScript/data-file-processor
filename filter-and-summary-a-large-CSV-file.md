@@ -4,32 +4,81 @@ Structured text file processing, such as TXT and CSV files, is common data analy
 
 Maybe you are  familiar with the database cursor. A database cursor returns a part of the data each time rather than load all data to the memory at one time. A file cursor in esProc works similarly in reading data from a big text file. esProc is the SPL-based professional data computing engine equipped with all-round cursor objects and operations. It’s convenient to handle filtering, sorting, aggregate with esProc.
 
-Example: students_scores.txt is a big file that records student scores. Below is part  of the file, values of different columns are separated by tabs.
+Example: students_scores.csv is a big file that records student scores. Below is part  of the file:
 
 ```
-CLASS	NAME	English	Chinese	Math
-1	Adams Brooke	63	31	69
-1	Adams Hannah	89	85	79
-1	Adams Jonathan	88	87	91
-1	Allen Ashley	98	97	97
+CLASS,NAME,English,Chinese,Math
+1,Adams Brooke,63,31,69
+1,Adams Hannah,89,85,79
+1,Adams Jonathan,88,87,91
+1,Allen Ashley,98,97,97
 ```
 
 ## Filtering
 
-Find scores of students of class 10 from it. 
+Find scores of students of class 10.
 
 esProc SPL script:
 
 |+|A|B|
 |:-|:-|:-|
-|1|=file("E:/txt/students_scores.txt").cursor@t()|Use @t option to read the first row as   column headers|
-|2|=A1.select(CLASS==10)|Select scores of students of class 10,   which is a delayed calculation|
-|3|=file("E:/txt/students_scores_10.txt").export@t(A2)|Export the eligible records to a new   file|
+|1|=file("E:/txt/students_scores.csv").cursor@tc()|Use @t option to read the first row as column headers|
+|2|=A1.select(CLASS==10)|Select scores of students of class 10, which is a delayed calculation|
+|3|=file("E:/txt/students_scores_10.csv").export@t(A2)|Export the eligible records to a new file|
+
+## Sorting
+
+Sort the CSV file students_scores.csv that records student scores by Chinese score in ascending order:
+
+esProc SPL script:
+
+|+|A|B|
+|:-|:-|:-|
+|1|=file("E:/txt/students_scores.csv").cursor@tc()|Create a cursor|
+|2|=A1.sortx(Chinese)|Sort records by Chinese in ascending order and return a cursor|
+|3|=file("E:/txt/students_scores_sort.txt").export@t(A2)|Export the sorted records to a new file|
+
+You can sort records by multiple fields or an expression. To change A2’s expression in the following way, for example:
+
+```
+=A1.sortx(Chinese,Math) // Sort by Chinese and then Math
+
+=A1.sortx(Math+English+Chinese) // Sort by total score
+```
+
+
 
 ## Aggregate
 
 An aggregate operation summarizes values of a specified column over all records in a big text file. There are sum, average, max, min and count, etc. To decrease memory use, we traverse all records in the cursor, calculate the current aggregate over each record and store only each aggregate result instead of all records in the memory. We’ll get the final result as soon as the traversal is over.
 
-Example: students_scores.csv is a big file that records student scores. Values of different columns are separated by commas. Below is part of the file:
+To calculate the total Chinese scores, esProc SPL produces the following script:
+
+|+|A|B|
+|:-|:-|:-|
+|1|=file("E:/txt/students_scores.csv").cursor@tc()|@c means using comma as the separator|
+|2|=A1.total(sum(Chinese))|Sum the Chinese scores|
+
+To calculate the total Chinese scores in class 10, esProc SPL has the following script:
+|+|A|B|
+|:-|:-|:-|
+|1|=file("E:/txt/students_scores.csv").cursor@tc()|@c means using comma as the separator|
+|2|=A1.select(CLASS==10).total(sum(Chinese))|Get records of class 10 and sum its   Chinese scores|
 
 
+## Grouping & aggregation
+
+Example: The big file user_info_reg.csv records user login information. We want to calculate the total number and duration of user logins in each province. Values of different columns are separated by commas. Below is part of the file:
+
+<img src="http://img.raqsoft.com.cn/uploads/0903/159911656700024c6.png">
+
+esProc SPL script:
+
+|+|A|B|
+|:-|:-|:-|
+|1|=file("E:/txt/user_info_reg.csv").cursor@tc()|Create a cursor; @c option enables using commas as the separator|
+|2|=A1.groups(id_province;count(\~):cnt,sum(reg_time):total_reg)|Group records and calculate the number and duration of user logins in each province|
+
+
+
+For detail explanation, see [Samples of Processing Big Text File](http://c.raqsoft.com/article/1599117027835)
