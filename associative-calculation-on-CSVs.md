@@ -46,7 +46,7 @@ Associative query on the main table and detailed table data, Example: Some data 
 
 <img scr="http://img.raqsoft.com.cn/uploads/0319/161613983600008cc.png">
 
-<im scr="http://img.raqsoft.com.cn/uploads/0319/1616139836000586b.png">
+<img scr="http://img.raqsoft.com.cn/uploads/0319/1616139836000586b.png">
 
 |+|A|
 |:-|:-|
