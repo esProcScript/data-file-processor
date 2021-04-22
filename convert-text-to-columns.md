@@ -115,4 +115,4 @@ SPL has the special function to directly get values of attribute strings and get
 |3|=clipboard(A2.concat@n("\t"))|/ Paste the result set onto the clipboard|
 
 
-
+For detail explanation, see [Sample Programs of String Split in Excel](http://c.raqsoft.com/article/1600314086044)
