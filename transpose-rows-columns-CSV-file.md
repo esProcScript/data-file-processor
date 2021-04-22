@@ -24,6 +24,8 @@ CATEGORY,1,2,3,…
 ONLINE,2440,1863.4,1813.0,…
 STORE,3746.2,448.0,624.8,…
 ```
+esProc SPL script:
+
 | |A|
 |:-|:-|
 |1|=T("MonthSales.csv").select(YEAR:2020)|
@@ -54,7 +56,7 @@ CLASS,MAX_MATH,MAX_ENGLISH,MAX_PE
 2,97,96,97
 …,…,…,…
 ```
-The SPL script:
+esProc SPL script:
 
 | |A|
 |:-|:-|
