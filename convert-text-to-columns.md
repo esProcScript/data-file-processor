@@ -28,3 +28,91 @@ esProc SPL script:
 
 After the SPL script is executed, we just need to paste the result set onto B1 of the Excel file to get the desired result.
 
+## Split away digits
+
+There are strings made up of both digits and characters. We want to separate the digitss from the characters.
+
+Below is numbers.xlsx:
+
+<img src="http://img.raqsoft.com.cn/uploads/0917/160031276000001be.png">
+
+The expected result:
+
+<img src="http://img.raqsoft.com.cn/uploads/0917/16003127700006ee0.png">
+
+SPL can directly split a string into individual characters and categorize them by type:
+
+| |A|B|
+|:-|:-|:-|
+|1|=clipboard().split@n()|/Get data from the   clipboard, split it into a sequence by carriage return and then split each   member character by character|
+|2|=A1.(\~.align@a(\[true,false\],isdigit(\~)).(\~.concat()))|/Group each sequence of   characters according to whether a character is a digit or not and concatenate   each group into a string to split digits from the characters|
+|3|=A2.concat@n("\t")|/Concatenate the two levels   of sequences into a two-dimensional table string by tab and carriage return   respectively|
+|4|=clipboard(A3)|/ Paste A3’s string onto the   clipboard|
+
+## Split away dates
+
+Here are rows of words containing dates. We want to split away all dates from each row and separate the dates by semicolon there are more than one date.
+
+Below is multidates.xlsx:
+
+<img src="http://img.raqsoft.com.cn/uploads/0917/1600312790000fa28.png">
+
+The expected result:
+
+<img src="http://img.raqsoft.com.cn/uploads/0917/16003127990007ed2.png">
+
+SPL’s way is to split a string into a sequence of words by spaces and convert members according to the specified date format:
+
+| |A|B|
+|:-|:-|:-|
+|1|=clipboard().split@n(“ “)|/ Get data from the   clipboard, split it into a sequence by carriage return and then split each   member into a sequence of words|
+|2|=A1.(\~.   (date(\~,"dd.MM.yy")))|/ Convert members in the   sequence of words into date type data according to the specified format|
+|3|=A2.(\~.select(ifdate(\~)))|/ Get date type values from   the sequence|
+|4|=clipboard(A3.concat@n(“;”))|/ Concatenate the date   string into a two-dimensional data string and paste it onto the clipboard|
+
+After the SPL script is executed, we just need to paste the result set onto B1 of the Excel file to get the desired result.
+
+## Split by character
+
+The following table contains a column of numbers of different lengths. We want to split each digit away from each numeric value to become an individual column.
+
+Below is number.xlsx:
+
+<img src="http://img.raqsoft.com.cn/uploads/0917/16003128210006bef.png">
+
+The expected result:
+
+<img src="http://img.raqsoft.com.cn/uploads/0917/16003128300006670.png">
+
+SPL can do the splitting by characters directly:
+
+| |A|B|
+|:-|:-|:-|
+|1|=clipboard().split@n()|/ Get data from the   clipboard, split it into a sequence by carriage return and then, by default,   split each member into a sequence of individual characters|
+|2|=A1.concat@n("\t")|/ Concatenate the two levels   of sequences into a two-dimensional table string|
+|3|=clipboard(A2)|/ Paste the result set onto the clipboard|
+
+After the SPL script is executed, we just need to paste the result set onto B1 of the Excel file to get the desired result.
+
+## Split away attribute tables & file names
+
+Here is a log file of complicated structure. It contains description of nodes that are similar to an attribute table. Now we want to split away the values of PublicKeyToken and the file names from the attribute description.
+
+Below is log.xlsx:
+
+<img src="http://img.raqsoft.com.cn/uploads/0917/160031284100045a9.png">
+
+The expected result:
+
+<img src="http://img.raqsoft.com.cn/uploads/0917/160031285000056ac.png">
+
+SPL has the special function to directly get values of attribute strings and get different parts of a file name:
+
+| |A|B|
+|:-|:-|:-|
+|1|=clipboard().split@nc()|/ Get data from the clipboard, split it into a sequence by carriage return and then, by default, split each member into a sequence by commas|
+|2|=A1.(\[replace(\~(2),"\"","").property("PublicKeyToken"),filename(replace(\~(3),"\"",""))\])|/ Remove quotes at both ends, use property function to get PublicKeyToken value from item 2 and   filename function to get the file name from the third item; then join the two values into a sequence|
+|3|=clipboard(A2.concat@n("\t"))|/ Paste the result set onto the clipboard|
+
+
+
