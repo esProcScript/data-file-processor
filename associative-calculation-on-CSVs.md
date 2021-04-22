@@ -63,3 +63,5 @@ A2 Read employee family member data and select members over 70.  
 A3 associates A1 and A2 according to Eid, deletes unmatched records, and names A1 as employee and A2 as family.  
 
 A4 takes out the employee column in A3 and joins it as a table sequence 
+
+
