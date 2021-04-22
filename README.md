@@ -14,7 +14,7 @@
 
 [Reorder and/or remove columns in a CSV file]()
 
-[Filter or query CSV data into a worksheet | Select specific rows from a CSV based on conditional expressions]()
+[Filter and summary a CSV file](fiter-and-summary-csv.md)
 
 [Convert Text to Columns with expressions]()
 
