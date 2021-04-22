@@ -16,6 +16,8 @@
 
 - [Associative calculation and query on CSV files](associative-calculation-on-CSVs.md)
 
+- [Summarize a large CSV file](summarize-a-large-CSV-file.md)
+
 [Reorder and/or remove columns in a CSV file]()
 
 
@@ -26,7 +28,7 @@
 
 [Summarize multiple CSV files]()
 
-[Summarize a large CSV file](summarize-a-large-CSV-file.md)
+
 
 [Sum columns in muiltiple, large, .csv files]()
 
