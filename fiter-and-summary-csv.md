@@ -58,7 +58,7 @@ A2 adds a column total_score to A1, whose value is the sum of the three colum
 
 The results in A2 are as follows:
 
-<img src="http://img.raqsoft.com.cn/uploads/0319/16161389300009086.png" width="800" height="200">
+<img src="http://img.raqsoft.com.cn/uploads/0319/16161389300009086.png" width="400" height="100">
 
 ## Group summary  
 Group and summarize the data in the data table.
