@@ -12,9 +12,13 @@
 
 - [Remove duplicates from a CSV file](remove-duplicates-from-csv.md)
 
+- [Filter and summary a CSV file](fiter-and-summary-csv.md)
+
+- [Associative calculation and query on CSV files](associative-calculation-on-CSVs.md)
+
 [Reorder and/or remove columns in a CSV file]()
 
-[Filter and summary a CSV file](fiter-and-summary-csv.md)
+
 
 [Convert Text to Columns with expressions]()
 
