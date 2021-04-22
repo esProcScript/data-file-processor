@@ -74,5 +74,25 @@ A1 reads the data in the file, and the T function automatically selects a suita
 
 A2 A1 is grouped by class to calculate the lowest score in English, the highest score in Chinese, and the total score in mathematics for each class. 
 
+## Filter after grouping
 
+Group and summarize the data in the data table before filtering.
+
+Example: Find classes with an average score of less than 70 in English.
+
+|+|A|
+|:-|:-|
+|1|=T(“E:/txt/Students_scores.txt”)|
+|2|=A1.groups(CLASS;avg(English):avg_En)|
+|3|=A2.select(avg_En<70)|
+
+A1 reads the data in the file, and the T function automatically selects a suitable separator according to the file extension.  
+
+A2 Group A1 by class, calculate the average English score of each class and name the new column named avg_En.  
+
+A3 selects from A2 those with an average English score of less than 70  
+
+The query results in A3 are as follows:
+
+<img src="http://img.raqsoft.com.cn/uploads/0319/16161389470007bb0.png" width="400" height="100">
 
