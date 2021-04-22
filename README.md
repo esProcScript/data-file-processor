@@ -14,9 +14,12 @@
 
 - [Filter and summary a CSV file](fiter-and-summary-csv.md)
 
+- [Filter and summary a large CSV file](filter-and-summary-a-large-CSV-file.md)
+
+- [Transpose rows and columns of a CSV file](transpose-rows-columns-CSV-file.md)
+
 - [Associative calculation and query on CSV files](associative-calculation-on-CSVs.md)
 
-- [Filter and summary a large CSV file](filter-and-summary-a-large-CSV-file.md)
 
 [Reorder and/or remove columns in a CSV file]()
 
@@ -24,12 +27,10 @@
 
 [Convert Text to Columns with expressions]()
 
-[Transpose rows and columns of a CSV file]()
+
 
 [Summarize multiple CSV files]()
 
 
-
-[Sum columns in muiltiple, large, .csv files]()
 
 
