@@ -5,7 +5,7 @@ Perform correlation calculations on the data in the two data tables.
 
 Example: The sales order information and product information are stored in two Excel files, respectively, and the sales amount of each order is calculated. The data structure of the two files is as follows:
 
-<img scr="http://img.raqsoft.com.cn/uploads/0319/16161397740002e28.png">
+<img src="http://img.raqsoft.com.cn/uploads/0319/16161397740002e28.png">
 
 |+|A|
 |:-|:-|
@@ -44,9 +44,9 @@ A3  according to ProductID, A1 to be associated with the primary key of A2, t
 
 Associative query on the main table and detailed table data, Example: Some data in the employee information table employee.xlsx and employee family member table family.xlsx are as follows. Please query the information of employees who have an elderly person over 70 years old at home.
 
-<img scr="http://img.raqsoft.com.cn/uploads/0319/161613983600008cc.png">
+<img src="http://img.raqsoft.com.cn/uploads/0319/161613983600008cc.png">
 
-<img scr="http://img.raqsoft.com.cn/uploads/0319/1616139836000586b.png">
+<img src="http://img.raqsoft.com.cn/uploads/0319/1616139836000586b.png">
 
 |+|A|
 |:-|:-|
