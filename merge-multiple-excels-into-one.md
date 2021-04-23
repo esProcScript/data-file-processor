@@ -50,3 +50,5 @@ A4: Save B3’s table sequence as a worksheet, named merge_data, in file result.
 
 The program achieves multiple Excel file merging with only two rounds loop. The outer loop traverses each of the Excel files under the given directory while the inner loop B1.conj() function merges data from every worksheet in an Excel file.
 
+Know more about [esProc and SPL](http://www.raqsoft.com/p/script-over-csv-xls)
+
