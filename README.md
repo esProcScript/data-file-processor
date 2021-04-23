@@ -2,6 +2,8 @@
 
 - [Run complex SQL queries directly on CSV files](run-sql-over-csv&xls.md)
 
+- [Read and reorder specific columns on a CSV file](read-reorder-columns-CVS-file.md)
+
 - [Combine multiple Text files of similar structure into one](combine-multiple-CSVs-into-one.md)
 
 - [Compare two CSV files and produce common or different output in Excel](compare-two-CSV-files.md)
@@ -22,7 +24,7 @@
 
 - [Convert Text to Columns with expressions](convert-text-to-columns.md)
 
-[Reorder and/or remove columns in a CSV file]()
+
 
 [Summarize multiple CSV files]()
 
