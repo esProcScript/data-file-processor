@@ -26,8 +26,5 @@
 
 
 
-[Summarize multiple CSV files]()
-
-
 
 
