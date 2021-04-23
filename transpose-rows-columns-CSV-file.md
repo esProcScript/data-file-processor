@@ -64,5 +64,6 @@ esProc SPL script:
 |2|=A1.groups(CLASS,SUBJECT;   max(SCORE):MAX_SCORE)|
 |3|=A2.pivot(CLASS; SUBJECT, MAX_SCORE;   "Math":"MAX_MATH",   "English":"MAX_ENGLISH",   "PE":"MAX_PE")|
 
+Know more about [esProc and SPL](http://www.raqsoft.com/p/script-over-csv-xls)
 
 
