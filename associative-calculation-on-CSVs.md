@@ -64,4 +64,6 @@ A3 associates A1 and A2 according to Eid, deletes unmatched records, and names 
 
 A4 takes out the employee column in A3 and joins it as a table sequence 
 
+Know more about [esProc and SPL](http://www.raqsoft.com/p/script-over-csv-xls)
+
 
