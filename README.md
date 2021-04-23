@@ -1,9 +1,19 @@
 # Mighty Script on CSV
 
-## Introduce
+## Introduce 
+
+### esProc
 
 <img src="http://www.raqsoft.com/html/file-processor/file-processor-4.png" width="800" height="400">
 
+<img src="http://www.raqsoft.com/html/file-processor/file-processor-5.png" width="800" height="400">
+
+### SPL（Structured Process Language)
+
+Syntax suitable for describing a natural way of thinking!
+Professional syntax in the field of set operation, code is more concise for the same process!
+
+**Easier to master and better performance than Python**
 
 
 ## Examples
