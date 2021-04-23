@@ -49,4 +49,4 @@ esProc supports most of the syntax in SQL92 standards.
 |15|$select  emp.BIRTHDAY as BIRTHDAY,emp.DEPT as DEPT from E:/txt/DEPARTMENT.txt as dept <br>    join E:/txt/EMPLOYEE.txt emp <br>    on dept.MANAGER=emp.EID <br> where <br>  emp.BIRTHDAY=(select  max(BIRTHDAY) <br>       from ( select emp1.BIRTHDAY as BIRTHDAY <br>            from E:/txt/DEPARTMENT.txt as  dept1 <br>             join E:/txt/EMPLOYEE.txt as  emp1 <br>             on dept1.MANAGER=emp1.EID <br>           ) <br>        )|/Nested subquery|
 
 
-For more **complex scenarios** , please refer to [How to Use SQL in esProc](http://c.raqsoft.com/article/1603680137640)
+For more **complex scenarios** , please refer to [How to Use SQL in esProc](http://c.raqsoft.com/article/1603680137640) and know more about [esProc and SPL](http://www.raqsoft.com/p/script-over-csv-xls)
