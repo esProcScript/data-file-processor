@@ -41,4 +41,5 @@ esProc SPL script:
 |3|=file("e:/orders.txt").export@t(A2)|Export the merge result to orders.txt|
 
 
-The above script is written on the condition that the merged data can fit into the memory. If it cannot, see more complex scenarios [Samples of Merging and Splitting Files](http://c.raqsoft.com/article/1600309450633)
+The above script is written on the condition that the merged data can fit into the memory. If it cannot, see more complex scenarios [Samples of Merging and Splitting Files](http://c.raqsoft.com/article/1600309450633) and know more about [esProc and SPL](http://www.raqsoft.com/p/script-over-csv-xls)
+
