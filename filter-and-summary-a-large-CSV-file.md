@@ -92,4 +92,5 @@ esProc SPL script:
 
 
 
-For detail explanation, see [Samples of Processing Big Text File](http://c.raqsoft.com/article/1599117027835)
+For detail explanation, see [Samples of Processing Big Text File](http://c.raqsoft.com/article/1599117027835) and know more about [esProc and SPL](http://www.raqsoft.com/p/script-over-csv-xls)
+
