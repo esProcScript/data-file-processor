@@ -14,6 +14,8 @@
 
 <img src="http://www.raqsoft.com/html/file-processor/file-processor-5.png" width="800" height="400">
 
+<br>
+
 ### SPL - Structured Process Language
 
 - **Syntax suitable for describing a natural way of thinking**
