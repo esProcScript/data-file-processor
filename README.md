@@ -4,7 +4,7 @@
 
 - [Read and reorder specific columns on a CSV file](read-reorder-columns-CVS-file.md)
 
-- [Combine multiple Text files of similar structure into one](combine-multiple-CSVs-into-one.md)
+- [Combine multiple CSV files of similar structure into one](combine-multiple-CSVs-into-one.md)
 
 - [Compare two CSV files and produce common or different output in Excel](compare-two-CSV-files.md)
 
