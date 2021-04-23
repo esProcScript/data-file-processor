@@ -96,3 +96,5 @@ The query results in A3 are as follows:
 
 <img src="http://img.raqsoft.com.cn/uploads/0319/16161389470007bb0.png" width="250" height="50">
 
+Know more about [esProc and SPL](http://www.raqsoft.com/p/script-over-csv-xls)
+
