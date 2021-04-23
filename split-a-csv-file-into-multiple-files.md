@@ -66,7 +66,8 @@ esProc SPL script:
 |3|for A2,1000|=file(“e:/log/log_”/#A3/”.txt”)|
 |4|　|=A3.(\~.(B3.write@a(\~)))|
 
-For detail explanation, see [Samples of Merging and Splitting Files](http://c.raqsoft.com/article/1600309450633)
+For detail explanation, see [Samples of Merging and Splitting Files](http://c.raqsoft.com/article/1600309450633) and know more about [esProc and SPL](http://www.raqsoft.com/p/script-over-csv-xls)
+
 
 
 
