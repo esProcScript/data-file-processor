@@ -38,4 +38,5 @@ esProc SPL script:
 
 
 Comparing two text files to find their common or different data is not a rare thing in data analysis work. According to the content to be compared, there are row-wise comparison and comparison by key field(s); and according to the sizes of files under comparison, there are small files comparison and big files comparison.
-For more details, see [Samples of Comparing Files](http://c.raqsoft.com/article/1600309188122)
+For more details, see [Samples of Comparing Files](http://c.raqsoft.com/article/1600309188122) and know more about [esProc and SPL](http://www.raqsoft.com/p/script-over-csv-xls)
+
