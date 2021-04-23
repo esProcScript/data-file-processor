@@ -1,5 +1,7 @@
 # Mighty Script on CSV
 
+<img src="http://www.raqsoft.com/html/file-processor/file-processor-4.png">
+
 - [Run complex SQL queries directly on CSV files](run-sql-over-csv&xls.md)
 
 - [Read and reorder specific columns on a CSV file](read-reorder-columns-CVS-file.md)
