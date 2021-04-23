@@ -1,4 +1,4 @@
-# Extract a huge text file
+# Calculate a huge text file
 
 A large file is too large to be read in at one time because of insufficient computer memory. In this case, direct use of desktop data tools (such as Excel) is powerless and often needs to write a program to deal with it. Even if the program is written, a large file must be read in batches for calculation and processing. Finally, the batch processing results need to be properly summarized according to different calculation types, which is much more complicated than the small file processing.
 
