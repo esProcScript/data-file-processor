@@ -26,6 +26,7 @@
 - **Easier to master and better performance than Python**
 
 Example:Sorting and filtering of grouped subsets
+
 Task: Find out the sales clerks whose sales are within top 8 for every moth in 1995.
 
 Python script:
@@ -56,7 +57,7 @@ esProc SPL script:
 |6|=A5.isect(\~.(name))|
 
 
-With basic programming knowledge, you can calculate files freely, self-service and quickly!
+**With basic programming knowledge, you can calculate files freely, self-service and quickly!**
 
 ## Examples
 
