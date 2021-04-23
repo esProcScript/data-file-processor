@@ -8,7 +8,7 @@
 
 - [Compare two CSV files and produce common or different output in Excel](compare-two-CSV-files.md)
 
-- [Calculate a huge CSV file](extract-a-huge-text-file.md)
+- [Calculate a huge CSV file](calculate-a-huge-text-file.md)
 
 - [Split a CSV file into multiple files](split-a-csv-file-into-multiple-files.md)
 
