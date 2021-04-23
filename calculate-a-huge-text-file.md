@@ -43,4 +43,5 @@ For example, group aggregate calculation is written as follows:
 It will be calculated in 4-way parallel mode, and the speed can be increased by 2–3 times on an ordinary multi-core laptop.
 The key point is that it is used for free.
 
-For more details, see [Samples of Processing Big Text File](http://c.raqsoft.com/article/1599117027835)
+For more details, see [Samples of Processing Big Text File](http://c.raqsoft.com/article/1599117027835) and know more about [esProc and SPL](http://www.raqsoft.com/p/script-over-csv-xls)
+
