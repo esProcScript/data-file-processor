@@ -2,19 +2,22 @@
 
 ## Introduce 
 
-### esProc
+### esProc - Agile Data Computing Engine
 
+**Free computing using esProc**
 <img src="http://www.raqsoft.com/html/file-processor/file-processor-4.png" width="800" height="400">
 
+**Convenient development environment**
 <img src="http://www.raqsoft.com/html/file-processor/file-processor-5.png" width="800" height="400">
 
-### SPL（Structured Process Language)
+### SPL - Structured Process Language
 
-Syntax suitable for describing a natural way of thinking!
-Professional syntax in the field of set operation, code is more concise for the same process!
+**Syntax suitable for describing a natural way of thinking**
+<img src="http://www.raqsoft.com/html/file-processor/file-processor-7.png">
+
 
 **Easier to master and better performance than Python**
-
+With basic programming knowledge, you can calculate files freely, self-service and quickly!
 
 ## Examples
 
