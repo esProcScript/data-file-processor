@@ -23,7 +23,7 @@
 <img src="http://www.raqsoft.com/html/file-processor/file-processor-7.png"  width="800" height="300">
 
 
-- **Easier to master and better performance than Python**
+- **Far more accessible than Python**
 
 Example:Sorting and filtering of grouped subsets
 
