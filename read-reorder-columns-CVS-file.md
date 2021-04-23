@@ -55,5 +55,6 @@ Sort the file in the same way, and write a new file with column names as a resul
 |2|=A1.sort(Client,-Amount)|
 |3|=file("D:/data/orders_sort.txt").export@t(A2)|
 
-For more examples, see [Read and write CSV/XLS files](http://c.raqsoft.com/article/1616037803132)
+For more examples, see [Read and write CSV/XLS files](http://c.raqsoft.com/article/1616037803132) and know more about [esProc and SPL](http://www.raqsoft.com/p/script-over-csv-xls)
+
 
