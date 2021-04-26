@@ -7,14 +7,15 @@ A directory contains a number of text files of same column headers and structure
 
 Example: there are same-structure text files that record daily orders under e:/orders. Each file has column headers on the first row and detailed data starting from the second row, as shown below. We want to merge them into one file named orders.txt.
 
-|ID|Company Area|OrderDate|Amount|
-|:-|:-|:-|:-|
-|10248|Shantai North|2012/7/4|428|
-|10249|Dongdiwang East|2012/7/5|1842|
-|10250|Shiyi North|2012/7/8|1523.49|
-|10251|Qi angu East|2012/7/8|624.94|
-|10252|Fuxing West|2012/7/9|3559.49|
-|10253|Shiyi North|2012/7/10|1428|
+```
+ID	Company Area	OrderDate	Amount
+10248	Shantai North	2012/7/4	428
+10249	Dongdiwang East	2012/7/5	1842
+10250	Shiyi North	2012/7/8	1523.49
+10251	Qi angu East	2012/7/8	624.94
+10252	Fuxing West	2012/7/9	3559.49
+10253	Shiyi North	2012/7/10	1428
+```
 
 esProc SPL script:
 
