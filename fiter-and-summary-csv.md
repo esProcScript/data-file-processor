@@ -6,12 +6,13 @@ Filter out the records that meet the conditions from the data table.
 
 Example: Filter the student scores of class 10 from the student score table Students_scores.txt. The first row of the file is the column name, and the second row is the data, as shown in the figure below.
 
-|CLASS|NAME|English|Chinese|Math|
-|:-|:-|:-|:-|:-|
-|1|Adams Brooke|63|31|69|
-|1|Adams Hannah|89|85|79|
-|1|Adams Jonathan|88|87|91|
-|1|Allen Ashley|98|97|97|
+```
+CLASS	NAME	English	Chinese	Math
+1	Adams Brooke	63	31	69
+1	Adams Hannah	89	85	79
+1	Adams Jonathan	88	87	91
+1	Allen Ashley	98	97	97
+```
 
 
 |+|A|
