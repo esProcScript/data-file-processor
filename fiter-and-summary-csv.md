@@ -1,4 +1,4 @@
-# Fiter and Summary a CSV file
+# Fiter and Summary a CSV file | Sum up CSV columns without excel
 
 ## Filter
 
